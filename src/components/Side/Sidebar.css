@@ -3,7 +3,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(169, 167, 171);
+    background-color: rgb(141, 138, 144);
     padding: 25px 15px;
 }
 .sidebar img{
@@ -49,7 +49,7 @@
     padding: 10px;
     padding-right: 40px;
     border-radius: 50px;
-    color: #282828;
+    color: #030303;
     cursor: pointer;
 }
 
