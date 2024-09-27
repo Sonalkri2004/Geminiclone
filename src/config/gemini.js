@@ -3,7 +3,7 @@ import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/ge
 const MODEL_NAME = "gemini-1.5-flash";
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
-console.log("API Key:", apiKey);
+// console.log("API Key:", apiKey);
 
 async function run(prompt) {
   const genAI = new GoogleGenerativeAI(apiKey);
