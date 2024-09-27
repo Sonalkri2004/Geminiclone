@@ -46,7 +46,7 @@ async function run(prompt) {
   try {
     const result = await chatSession.sendMessage(prompt);
     const response = result.response;
-    console.log(response.text());
+    // console.log(response.text());
     return response.text();
   } catch (error) {
     console.error("Error sending message:", error);
